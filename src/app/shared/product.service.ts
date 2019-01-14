@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class ProductService {
   private products: Product[] = [
-    new Product(1,"The first product",1.99,3.5,"This is the first product of Shocker store.",["Apparel"]),
+    new Product(1,"Sweater with Wu",39.99,4.0,"Gold sweater with split hem collar lined in gray.",["Apparel"]),
     new Product(2,"The second product",2.99,3.5,"This is the second product of Shocker store.",["Book"]),
     new Product(3,"The third product",3.99,2.5,"This is the third product of Shocker store.",["Merchandise"]),
     new Product(4,"The fourth product",4.99,3.5,"This is the fourth product of Shocker store.",["Apparel"]),

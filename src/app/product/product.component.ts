@@ -15,7 +15,7 @@ export class ProductComponent implements OnInit {
 
   private titleFilter:FormControl = new FormControl();
 
-  private imgUrl = 'http://placehold.it/320x150';
+  private imgUrl = 'http://placehold.it/300x200/ffcf00';
 
   constructor(private productService: ProductService) { 
     this.titleFilter.valueChanges
